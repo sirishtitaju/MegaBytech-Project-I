@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.3rem 0;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.btn {
+    padding: 0 6px;
+}
+
+.btn-submit {
+    margin-top: 0.8rem;
+    width: 100%;
+}
+
+.middle i {
+    color: #fff;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+i.fa-envelope {
+    display: inline-block;
+    background-color: #33383b;
+    border-radius: 50%;
+    padding: 0.8em 0.8em;
+
+}
+
+i.fa-map-marker {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #33383b;
+    padding: 0.4em 0.6em;
+
+}
+
+footer p {
+    color: #8f9296;
+}
+
+
+span {
+    font-size: 0.7rem;
+}
+
+ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    background-color: #33383b;
+    padding: 0.8em 0.8em;
+}
+
+
+.container-logo {
+    text-align: center;
+}
+
+.yt-video {
+    margin-bottom: 5rem;
+}
+
+footer {
+    background-color: #292c2f;
+    padding: 2rem 0rem;
+    color: #fff;
+    /* text-align: center; */
+}
+
+.footer-logo {
+    width: 5rem;
+    display: block;
+    /* text-align: center; */
+}
+
+.footer-address {
+    /* margin-left: 3.3rem; */
+    display: inline-block;
+}
+
+.footer-mail {
+    display: inline-block;
+    color: rgb(243, 44, 173);
+}
+
+.social-icons li {
+    margin-right: 8px;
+}
+
+/* ------------------- comment-section---------------------- */
+
+.widget .panel-body {
+    padding: 0px;
+}
+
+.widget .list-group {
+    margin-bottom: 0;
+}
+
+.widget .panel-title {
+    display: inline
+}
+
+.widget .label-info {
+    float: right;
+}
+
+.widget li.list-group-item {
+    border-radius: 0;
+    border: 0;
+}
+
+.widget li.list-group-item:hover {
+    background-color: rgba(86, 61, 124, .1);
+}
+
+.widget .mic-info {
+    color: #666666;
+    font-size: 11px;
+}
+
+.widget .action {
+    margin-top: 5px;
+}
+
+.widget .comment-text {
+    font-size: 12px;
+}
+
+.widget .btn-block {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+
+.list-group-item {
+    padding: 0 0 .75rem 0;
+}
+
+
+@media (max-width:600px) {
+    footer {
+        text-align: center;
+    }
+
+    .footer-logo {
+        display: inline-block;
+        text-align: center;
+    }
+
+    iframe {
+        width: 100%;
+        display: block;
+    }
+
+    .comment-section {
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
